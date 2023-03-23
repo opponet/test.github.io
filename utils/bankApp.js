@@ -63,7 +63,7 @@
 const Web3 = require('web3');
 
 // 设置 Web3.js 对应的 provider
-const provider = new Web3.providers.HttpProvider('http://localhost:8545');
+const provider = new Web3.providers.HttpProvider('https://goerli.infura.io/v3/8e5fd748b32d441fac16a6feec74d1dd');
 
 // 初始化 Web3 对象
 const web3 = new Web3(provider);
